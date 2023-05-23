@@ -1,0 +1,33 @@
+.header{
+    text-align: center;
+    color: darkblue;
+}
+
+.section{
+
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.code{
+    color: red;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#image_box{
+    background-image: url("bg1.png");
+}
+
+.column{
+    background-color: gray;
+    text-decoration: underline;
+}
+
+#instruction_order{
+    font-family: Arial;
+
+}

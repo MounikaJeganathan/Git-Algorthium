@@ -1,0 +1,71 @@
+/*.lightgrey{
+    color: gray;
+
+}
+.darkgrey{
+
+    /*//* add color using from color picker code too *//*/
+    color:#9da8a0 ;
+}
+.h1, h2{
+    background-color: aqua;
+
+}
+h2#h2_drive{
+    color: darkcyan;
+} */
+
+body{
+    background-image: url("images/bg.png");
+    font-family: helvetica;
+    font-size: 12px;
+    margin: 0px;
+}
+.header{
+    background-color: burlywood;
+    color: greenyellow;
+    text-align: center;
+    padding: 5px;
+}
+
+.section{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+
+
+}
+
+.coffee{
+    background-image: url("images/coffee.png");
+
+}
+
+div.header h1{
+    text-transform: uppercase;
+}
+
+span#disclaimer{
+    text-decoration: underline;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+a:active{
+    background-color: green;
+    color: white;
+}
