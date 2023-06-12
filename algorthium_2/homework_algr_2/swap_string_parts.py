@@ -3,6 +3,7 @@
 # Example: string = 'bbbbbcaaaaa'. Result = ‘aaaaabbbbbc’.
 
 
+# o(1)
 def swap_parts_string(s):
     length = len(s)   # 11
     half_length = length // 2 #5
@@ -17,3 +18,4 @@ def swap_parts_string(s):
 
 
 print(swap_parts_string("bbbbbcaaaaa"))
+print(swap_parts_string('aaaabbbb'))
