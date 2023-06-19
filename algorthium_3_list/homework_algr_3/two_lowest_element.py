@@ -1,6 +1,8 @@
 def lowest_element(array):
     array = sorted(array)
-    return array[0], array[1]
+    # return array[0], array[1]
+    # or
+    return array[:2]
     # lowest_1 = min(array)
     # array.remove(lowest_1)
     # lowest_2 = min(array)
